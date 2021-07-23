@@ -34,19 +34,19 @@ Homepage
 
 Dashboard
 
-![screencapture-localhost-5000-dashboard-2021-07-23-20_58_57](https://user-images.githubusercontent.com/34818652/126810516-8a33f351-1f69-4dbf-8451-cf99e0eba5ba.png)
+<kbd>![screencapture-localhost-5000-dashboard-2021-07-23-20_58_57](https://user-images.githubusercontent.com/34818652/126810516-8a33f351-1f69-4dbf-8451-cf99e0eba5ba.png)</kbd>
 
 Api Request json
 
-![screencapture-localhost-5000-api-key-shahrukh123-2021-07-23-21_10_44](https://user-images.githubusercontent.com/34818652/126810837-8a50fce9-a856-4a35-9a84-d2acb313c2fe.png)
+<kbd>![screencapture-localhost-5000-api-key-shahrukh123-2021-07-23-21_10_44](https://user-images.githubusercontent.com/34818652/126810837-8a50fce9-a856-4a35-9a84-d2acb313c2fe.png)</kbd>
 
 About page
 
-![screencapture-localhost-5000-about-2021-07-23-20_59_12](https://user-images.githubusercontent.com/34818652/126810526-08f22410-3bf3-4822-b286-77c020673f03.png)
+<kbd>![screencapture-localhost-5000-about-2021-07-23-20_59_12](https://user-images.githubusercontent.com/34818652/126810526-08f22410-3bf3-4822-b286-77c020673f03.png)</kbd>
 
 Contact page
 
-![screencapture-localhost-5000-contact-2021-07-23-20_59_18](https://user-images.githubusercontent.com/34818652/126810536-8200fa72-565e-4cf3-bada-8dc77933c3df.png)
+<kbd>![screencapture-localhost-5000-contact-2021-07-23-20_59_18](https://user-images.githubusercontent.com/34818652/126810536-8200fa72-565e-4cf3-bada-8dc77933c3df.png)</kbd>
 
 # How to run
 Project can be run through main.py
