@@ -30,7 +30,7 @@ Python-IoT-Dashboard-Home-Automation
 
 Homepage
 
-![screencapture-localhost-5000-2021-07-23-20_58_31](https://user-images.githubusercontent.com/34818652/126810498-602571d9-c09e-4aae-9693-e2cb7f5e3a2f.png)
+<kbd>![screencapture-localhost-5000-2021-07-23-20_58_31](https://user-images.githubusercontent.com/34818652/126810498-602571d9-c09e-4aae-9693-e2cb7f5e3a2f.png)</kbd>
 
 Dashboard
 
