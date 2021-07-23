@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}
+    About
+{% endblock %}
+
+{% block styling %}
+    <style> 
+        
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <h1 class="display-6" style="font-size: 2rem;">About me</h1>
+                <div class="col-md rounded" style="background-color:rgb(212, 212, 212); padding:15px;">
+                    <h1 class="display-6" style="font-size: 1.5rem;">
+                        Hi there! I'm Shahrukh, I have graduated from SSUET, Karachi in Electronics
+                        Engineering. I have over 3 years of R&D Experience, worked at different companies 
+                        such as TechTree, Research Center for Artificial Intelligence (RCAI) 
+                        NED University, EDVON Robotics and Marhaba Enterprises. 
+                        I've also worked on many freelancing R&D Projects of clients in different 
+                        countries such as USA, UK, France & Belgium. 
+                        I have 2.5 years of teaching experience and conducted many sessions of 
+                        technical learning courses such as Python, Internet of Things, Raspberry Pi, 
+                        Robotics & Arduino at University and Professional forums.<br>
+                    </h1>
+                </div>
+                <h1 class="display-6" style="font-size: 2rem; padding-top: 10px;">About Project</h1>
+                <div class="col-md rounded" style="background-color:rgb(212, 212, 212); padding:15px;">
+                    <h1 class="display-6" style="font-size: 1.5rem;">
+                        This project was developed by me using Python-Flask Webframework as backend,
+                        front end uses HTML with Bootstrap. The project can be taken as a template 
+                        and can be used to make a bigger IoT Dashboard. API request is in json format
+                        which can be viewed at localhost:5000/api_key=shahrukh123 after the project
+                        is up and running. The request can be parsed by a microcontroller such as an
+                        ESP8266 or ESP32 which then can be used to turn appliances On / Off.
+                    </h1>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <img src="../static/pic_1.jpg" class="card-img-top" alt="profilepic">
+                    <div class="card-body">
+                        <h5 class="card-title">Developed by</h5>
+                        <p class="card-text">Engr. Shahrukh Saleem</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

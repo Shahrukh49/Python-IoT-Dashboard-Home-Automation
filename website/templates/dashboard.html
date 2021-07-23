@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Dashboard
+{% endblock %}
+
+{% block styling %}
+    <style> 
+        
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div class="container main" style="padding-top: 30px; width: 90%;">
+        <div class="row">
+            <div class="col">
+                <h2 class="display-6 rounded" style="font-size: 2rem;">
+                    Room 1
+                </h2>
+                <div class="row">
+                    <div class="col">
+                        <p>Light 1</p>
+                        <form method ='POST' class="d-grid gap-2 col-8">
+                            <button type="submit" class="btn btn-outline-primary btn-lg" name="light1_r1_on" value="1">ON</button>
+                            <button type="submit" class="btn btn-outline-secondary btn-lg" name="light1_r1_off" value="0">OFF</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <p>Light 2</p>
+                        <form method ='POST' class="d-grid gap-2 col-8">
+                            <button type="submit" class="btn btn-outline-primary btn-lg" name="light2_r1_on" value="1">ON</button>
+                            <button type="submit" class="btn btn-outline-secondary btn-lg" name="light2_r1_off" value="0">OFF</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <p>Light 3</p>
+                        <form method ='POST' class="d-grid gap-2 col-8">
+                            <button type="submit" class="btn btn-outline-primary btn-lg" name="light3_r1_on" value="1">ON</button>
+                            <button type="submit" class="btn btn-outline-secondary btn-lg" name="light3_r1_off" value="0">OFF</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <p>Light 4</p>
+                        <form method ='POST' class="d-grid gap-2 col-8">
+                            <button type="submit" class="btn btn-outline-primary btn-lg" name="light4_r1_on" value="1">ON</button>
+                            <button type="submit" class="btn btn-outline-secondary btn-lg" name="light4_r1_off" value="0">OFF</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <p>Fan 1</p>
+                        <form method ='POST' class="d-grid gap-2 col-8">
+                            <button type="submit" class="btn btn-outline-primary btn-lg" name="fan1_r1_on" value="1">ON</button>
+                            <button type="submit" class="btn btn-outline-secondary btn-lg" name="fan1_r1_off" value="0">OFF</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <p>Fan 2</p>
+                        <form method ='POST' class="d-grid gap-2 col-8">
+                            <button type="submit" class="btn btn-outline-primary btn-lg" name="fan2_r1_on" value="1">ON</button>
+                            <button type="submit" class="btn btn-outline-secondary btn-lg" name="fan2_r1_off" value="0">OFF</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 class="display-6 rounded" style="font-size: 2rem; padding-top: 25px">
+                    Room 2
+                </h2>
+                <div class="row">
+                    <div class="col">
+                        <p>Light 1</p>
+                        <form method ='POST' class="d-grid gap-2 col-8">
+                            <button type="submit" class="btn btn-outline-primary btn-lg" name="light1_r2_on" value="1">ON</button>
+                            <button type="submit" class="btn btn-outline-secondary btn-lg" name="light1_r2_off" value="0">OFF</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <p>Light 2</p>
+                        <form method ='POST' class="d-grid gap-2 col-8">
+                            <button type="submit" class="btn btn-outline-primary btn-lg" name="light2_r2_on" value="1">ON</button>
+                            <button type="submit" class="btn btn-outline-secondary btn-lg" name="light2_r2_off" value="0">OFF</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <p>Light 3</p>
+                        <form method ='POST' class="d-grid gap-2 col-8">
+                            <button type="submit" class="btn btn-outline-primary btn-lg" name="light3_r2_on" value="1">ON</button>
+                            <button type="submit" class="btn btn-outline-secondary btn-lg" name="light3_r2_off" value="0">OFF</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <p>Fan 1</p>
+                        <form method ='POST' class="d-grid gap-2 col-8">
+                            <button type="submit" class="btn btn-outline-primary btn-lg" name="fan1_r2_on" value="1">ON</button>
+                            <button type="submit" class="btn btn-outline-secondary btn-lg" name="fan1_r2_off" value="0">OFF</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <p>Fan 2</p>
+                        <form method ='POST' class="d-grid gap-2 col-8">
+                            <button type="submit" class="btn btn-outline-primary btn-lg" name="fan2_r2_on" value="1">ON</button>
+                            <button type="submit" class="btn btn-outline-secondary btn-lg" name="fan2_r2_off" value="0">OFF</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
